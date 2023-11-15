@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+body{
+    height: 100%;
+    width: 80%;
+    margin:0 auto;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.container {
+    border: 10px solid yellow;
+}
+
+header {
+    border: 1px solid rgb(255, 72, 0);
+}
+
+.card {
+    border: 1px solid rgb(0, 255, 55);
+    background-color: lightpink;
+    float: left;
+    width: calc(100% / 3 - 40px);
+    margin: 20px 20px;
+}
+
+.card img {
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
