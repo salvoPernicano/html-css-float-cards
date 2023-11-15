@@ -4,42 +4,68 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     width: 100%;
     height: 100%;
     background-color: white;
+    font-family: "Fredoka", sans-serif;
 }
 
-body{
+body {
     height: 100%;
     width: 80%;
-    margin:0 auto;
-    background-color: lightskyblue;
+    margin: 0 auto;
     text-align: center;
 }
 
-.container {
-    border: 10px solid yellow;
+h2 {
+    margin: 4% 0;
+    color: #E53170;
+    font-weight: 600;
+    font-size: 40px;
 }
 
-header {
-    border: 1px solid rgb(255, 72, 0);
+p{
+    font-size: 30px;
 }
+
+.container {
+    color: white;
+    margin-top: 3%;
+}
+
+
 
 .card {
-    border: 1px solid rgb(0, 255, 55);
-    background-color: lightpink;
+    background-color: #0F0E17;
     float: left;
     width: calc(100% / 3 - 40px);
+    height: 100px;
     margin: 20px 20px;
+    text-align: left;
 }
 
 .card img {
     float: left;
+    height: 100%;
+    margin-right: 15px;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.email {
+    color: #68CBF2;
+}
+
+.nomi{
+    margin-top: 5px;
+    line-height: 180%;
+}
+
+h3 {
+    text-transform: uppercase;
 }
